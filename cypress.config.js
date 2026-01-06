@@ -6,6 +6,8 @@ export default defineConfig({
     mochaFile: "cypress/results/results-[hash].xml",
     toConsole: true,
   },
+  screenshotsFolder: "cypress/screenshots",
+  video: true,
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
