@@ -41,8 +41,8 @@ html {
   height: 100%;
   background: linear-gradient(
     160deg,
-    #241b33, 
-    #281b42
+    #1c1628, 
+    #211634
   );
   color: var(--color-gray-100);
 }
